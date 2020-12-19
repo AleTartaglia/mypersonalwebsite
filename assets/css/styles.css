@@ -346,6 +346,7 @@ img {
 .about__text {
   margin-bottom: var(--mb-4);
   color: whitesmoke;
+  text-align: justify;
 }
 .about__profession {
   display: block;
