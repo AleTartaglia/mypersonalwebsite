@@ -168,7 +168,7 @@ img {
     height: 100%;
     padding: 2rem;
     background-color: rgba(8, 14, 10, 0.8);
-    transition: 0.5s;
+    transition: all 0.2s ease;
     backdrop-filter: blur(10px);
   }
 }
@@ -254,7 +254,7 @@ img {
   background: rgba(123, 111, 113, 0.7);
   border-radius: 0.5rem;
   z-index: var(--z-tooltip);
-  transition: 0.4s;
+  transition: all 0.2s ease;
   visibility: hidden;
 }
 
@@ -426,7 +426,7 @@ img {
   border-radius: 0.5rem;
   cursor: pointer;
   backdrop-filter: blur(10px);
-  transition: 0.3s;
+  transition: all 0.2s ease;
 }
 .portfolio__img:hover .portfolio__link {
   bottom: 0;
