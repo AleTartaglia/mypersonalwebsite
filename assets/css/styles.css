@@ -506,12 +506,23 @@ img {
 
 /* ===== MEDIA QUERIES =====*/
 
+@media screen and (min-width: 375px) {
+  .home__img {
+    position: absolute;
+   
+    bottom: 80px;
+    width: 290px;
+  }
+}
 @media screen and (min-width: 500px) {
   .home__img {
     position: absolute;
     right: 32px;
     bottom: 246px;
     width: 400px;
+  }
+  .home__title{
+    font-size: 10em;
   }
 }
 
@@ -563,15 +574,17 @@ img {
     row-gap: 0;
   }
   .home__img {
-    width: 510px;
+    width: 500px;
     right: 10%;
-    top: 29%;
+    top: 56%;
   }
   .home__title {
     align-self: flex-end;
     font-size: var(--big-font-size);
     color: var(--white-color);
     line-height: 0.8;
+    position: relative;
+    bottom: 25%;
   }
   .about__container {
     grid-template-columns: repeat(2, 1fr);
@@ -620,7 +633,7 @@ img {
     line-height: 0.8;
   }
   .home__img {
-    width: 480px;
+    width: 520px;
     right: 10%;
     top: 29%;
   }
